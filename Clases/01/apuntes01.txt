@@ -1,0 +1,8 @@
+Se realizó la revisión del contenidod del capítulo 1 "Fuerza Bruta".
+
+Se revisaron temas como ordenación: selección y burbuja
+						búsqueda: secuencial
+						
+Finalmente, se resolvió el problema de la mochila. Y se sugirieron las siguientes tareas:
+	- darle un valor a cada ítem de la mochila
+	- resolverlo teniendo en cuenta varias mochilas
