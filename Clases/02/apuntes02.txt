@@ -1,0 +1,12 @@
+Lab01 -> fuerza bruta, recursión
+Se revisó la teoría de recursión:
+- definición recursión
+- consideraciones
+- ejemplo factorial
+- ejemplo fibonacci	
+- ejemplos (tarea)
+- características
+- ejercicio "pintaTriangulito"
+- ejercicio "robotBase"
+- ejercicio "miniPupiletras"
+- tarea: que el pupiletra pinte la matriz con lo encontrado
