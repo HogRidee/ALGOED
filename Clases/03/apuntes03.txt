@@ -1,0 +1,11 @@
+Nuevo tema: listas
+- Definición
+- Listas estáticas
+- Listas resumen
+- Listas dinámicas (enlazada)
+- Lista enlazada
+- Operaciones sobre listas
+- Ejercicios
+- Lista doblemente enlazada
+- Lista circular enlazada
+- Ejercicio "invierteLista" iterativo + recursivo
