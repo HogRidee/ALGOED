@@ -5,7 +5,8 @@ Nuevo tema: listas
 - Listas dinámicas (enlazada)
 - Lista enlazada
 - Operaciones sobre listas
-- Ejercicios
+- Ejercicios //pendiente
 - Lista doblemente enlazada
 - Lista circular enlazada
-- Ejercicio "invierteLista" iterativo + recursivo
+- Ejercicio "invierteLista" iterativo + recursivo //pendiente que lo pase
+- Asesoría: Ejercicio Sonda (recursión) Lab2 (pandemia)
