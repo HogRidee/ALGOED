@@ -69,12 +69,12 @@ int main(int argc, char** argv) {
         {'O', 'B', 'N', 'I', 'Y', 'S', 'P', 'O', 'O', 'K'},
     };
     movimientos();
-    
+
     int n = 3;
     char palabra[] = {'H', 'S', 'O'};
-    
+
     robotMarinero(tablero, palabra, n);
-    
+
     return 0;
 }
 
