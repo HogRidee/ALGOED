@@ -21,10 +21,10 @@ void movimientos(){
 }
 
 bool busca(char tablero[][MAXCOL], char palabra[], int n, int row, int col){
-    int nrow, ncol;
+    int nrow, ncol, j = 0;
     bool encontrado = false;
-    char c[] = {'X', 'X', 'X'};
-    for (int k = 0; k < n; k++){
+    char c[4] = {'X', 'X', 'X'};
+    for (int k = 0; k < 3; k++){
         if(tablero[row][col] == palabra[k] && c[k] == 'X'){
             encontrado = true;
             c[k] = tablero[row][col];
@@ -35,17 +35,22 @@ bool busca(char tablero[][MAXCOL], char palabra[], int n, int row, int col){
     for (int i = 0; i < 4; i++){
         nrow = row + mov[i][0];
         ncol = col + mov[i][1];
-        if(ncol < 0 or nrow < 0 or ncol >= MAXCOL or nrow >= MAXFIL)
-            continue;
-        for (int j = 0; j < n; j++){
-            if(tablero[nrow][ncol] == palabra[j] && c[j] == 'X'){
-                encontrado = true;
-                c[j] = tablero[nrow][ncol];
+        for (j = 1; j < n; j++){
+            if(ncol < 0 or nrow < 0 or ncol >= MAXCOL or nrow >= MAXFIL)
                 break;
-            }
             encontrado = false;
+            for(int k = 0; k < 3; k++){
+                if(tablero[nrow][ncol] == palabra[k] && c[k] == 'X'){
+                    encontrado = true;
+                    c[k] = tablero[nrow][ncol];
+                    break;
+                }
+            }
+            if(!encontrado)break;
+            nrow = nrow + mov[i][0];
+            ncol = ncol + mov[i][1];
         }
-        if(encontrado) return true;
+        if(j == n) return true;
     }
     return false;
 }
