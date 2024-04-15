@@ -1,0 +1,10 @@
+Se revisó el lab 1
+LAB2: TAD -> LISTAS, PILAS, COLAS
+COLAS
+- Def
+- Operaciones
+- Ejercicios
+- Resumen
+- Vip, cliente, no cliente, cabeza, cola, # (fija)
+- Ejercicio de clase
+- Ordenar cola (recursivo)
